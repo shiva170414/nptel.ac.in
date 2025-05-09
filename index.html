@@ -2,58 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS79S64570085204485403</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-    }
-    #myPhoto {
-      display: none;
-      margin-top: 20px;
-      max-width: 100%;
-      height: auto;
-      border: 2px solid #ccc;
-      border-radius: 10px;
-    }
-
-    button 
-    {
-        color: white;
-        background-color: #3070bf;
-        padding: 10px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-        display: inline-block;
-        width: 156px;
-        cursor: pointer;
-        border: none;
-    }
-
-
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPTEL Certificate Viewer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<center style="position: absolute; top: 40%; left: 50%; transform: (-50%,-50%);">
+
   <button id="showBtn" onclick="showPhoto()">Course Certificate</button>
-  <br>
-  <img id="myPhoto" src="pri.png" alt="Sample Photo">
-  <br>
-</center>
+  <img id="myPhoto" src="Privacy.jpg" alt="Certificate">
 
-  <script>
-    function showPhoto() {
-      const photo = document.getElementById("myPhoto");
-      const button=document.getElementById("showBtn");
-      photo.style.display = "block";
-      button.style.display="none";
-    }
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
